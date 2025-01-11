@@ -1,8 +1,13 @@
 import './styles/App.css'
-import { Outlet, useLocation } from 'react-router-dom'
-import Header from './components/Header'  
 import { useEffect } from 'react'
+import { Outlet, useLocation } from 'react-router-dom'
+
+import Header from './components/Header'  
+import Footer from './components/Footer'
+
 import ScrollToTop from './components/ScrollToTop'
+
+
 
 function App() {
 
@@ -13,6 +18,7 @@ function App() {
       <main className='container'>
         <Outlet />
       </main>
+      <Footer />
     </div>
   )
 }
