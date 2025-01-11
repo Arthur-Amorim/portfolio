@@ -1,13 +1,16 @@
-import './App.css'
-import { Outlet } from 'react-router-dom'
+import './styles/App.css'
+import { Outlet, useLocation } from 'react-router-dom'
 import Header from './components/Header'  
+import { useEffect } from 'react'
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
-  return (
-    <div className='Container'>
-      <Header />
 
-      <main>
+  return (
+    <div className='app'>
+      <Header />
+      <ScrollToTop />
+      <main className='container'>
         <Outlet />
       </main>
     </div>
