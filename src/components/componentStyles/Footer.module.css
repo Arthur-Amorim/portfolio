@@ -1,0 +1,22 @@
+footer{
+     width: 50px;
+     position: fixed;
+     bottom: 0;
+     right: 0;
+     background-color: rgba(255,255,255, .8);
+     padding: 10px 5px 10px 5px;
+     border-radius: 2px;
+     box-shadow: -1px 0 4px 1px rgba(0,0,0,.3);
+}
+
+footer h3{
+     text-align: center;
+}
+
+footer a{
+     position: relative;
+     width: fit-content;
+     left: calc(50% - 20px);
+     margin: 5px 0 5px 0;
+}
+
