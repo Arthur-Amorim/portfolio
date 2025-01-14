@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import '../styles/Inicio.css'
-import CardExperiencia from '../components/CardExperiencia'
+import CardExperiencia from '../components/CardExperience'
 import data from '../data/experiences.json'
+import Experiences from '../components/Experiences';
 
 function Inicio() {
      const [visibleSection, setVisibleSection] = useState('introducao')
@@ -50,22 +51,7 @@ function Inicio() {
 
                     {visibleSection == 'experiencia' && (
 
-                         <article className='experiencia'>
-
-                              {data.map(({ id, title, description, image1}) => {
-                                   const darked = (id % 2 == 0 ? true : false)
-                                   return (
-                                   <div key={id}>
-                                        <CardExperiencia
-                                             title={title}
-                                             description={description}
-                                             image1={"https://placehold.co/600x400"}
-                                             darked={darked}
-                                        />
-                                   </div>
-                              )})}
-
-                         </article>
+                         <Experiences/>
 
                     )}
 

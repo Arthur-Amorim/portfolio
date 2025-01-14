@@ -91,7 +91,11 @@
      font-size: 20px;
 }
 
-
 .sumir {
      display: none;    
+}
+
+.underlined{
+     transition: border-bottom 300ms ease-in;
+     border-bottom: solid 1px white;
 }

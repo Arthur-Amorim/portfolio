@@ -1,0 +1,39 @@
+.sectionsNav{
+     display: flex;
+}
+
+.sectionsNav li{
+     margin: 0 20px 10px 20px;
+     padding: 10px;
+     list-style: none;
+     font-size: 25px;
+     border: solid 1px transparent;
+}
+
+.sectionsNav li:hover{
+     /* background-color: rgba(0,0,0,0.2); */
+     border: solid 1px #566569;
+     border-radius: 5px;
+     background-color: rgba(255,0,0,0.5);
+     cursor: pointer;
+}
+
+.sectionsNav li:active{
+     /* background-color: rgba(0,0,0,0.2); */
+     border: solid 1px #566569;
+     border-radius: 5px;
+     background-color: rgba(255,0,0,0.5);
+     cursor: pointer;
+}
+
+.backgrounded{
+     background-color: #930D0F;
+     border-radius: 5px;
+     color: white;
+}
+
+hr {
+     width: 800px;
+     margin: 0 20px 10px 20px;
+}
+

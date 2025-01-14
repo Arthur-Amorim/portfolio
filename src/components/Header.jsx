@@ -7,9 +7,11 @@ import styles from './componentStyles/Header.module.css'
 import { useState, useEffect } from 'react';
 
 export default function Header() {
-     
+
      const [isScrolled, setIsScrolled] = useState(false);
-     const cssSumir = `${isScrolled? styles.sumir : ''}`
+     const cssSumir = `${isScrolled ? styles.sumir : ''}`
+     const [underlined, setUnderlined] = useState('inicio')
+
      // Hook para monitorar a rolagem
      useEffect(() => {
           const handleScroll = () => {
@@ -41,15 +43,15 @@ export default function Header() {
                </div>
 
                <ul className={styles.navigator}>
-                    <Link to="/portfolio">
-                         <li>
-                              <RiHome2Line size={25} />  
+                    <Link to="/portfolio" onClick={() => setUnderlined('inicio')} >
+                         <li className={underlined === 'inicio' ? styles.underlined : ''} >
+                              <RiHome2Line size={25} />
                               <span className={cssSumir}>Início</span>
                          </li>
                     </Link>
-                    <Link to="/portfolio/projetos">
-                         <li>
-                              <GoTools size={25} /> 
+                    <Link to="/portfolio/projetos" onClick={() => setUnderlined('projetos')} >
+                         <li className={underlined === 'projetos' ? styles.underlined : ''} >
+                              <GoTools size={25} />
                               <span className={cssSumir}> Projetos </span>
                          </li>
                     </Link>
