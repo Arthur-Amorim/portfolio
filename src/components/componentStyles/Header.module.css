@@ -11,6 +11,7 @@
      margin-bottom: 150px;
      
      transition: height 300ms ease-in-out; 
+     z-index: 2;
 }
 .headerContainer > *{
      transition: display 2s ease-in-out;

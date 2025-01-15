@@ -7,7 +7,7 @@ function Projetos() {
      const [visibleSection, setVisibleSection] = useState('pesquisa')
 
      return (
-          <>
+          <div className="sectionsContainer">
                <ul className="sectionsNav">
                     <li
                          onClick={() => setVisibleSection('pesquisa')}
@@ -30,7 +30,7 @@ function Projetos() {
                {visibleSection === 'modelagem' && (
                     <Images/>
                )}
-          </>
+          </div>
      )
 }
 

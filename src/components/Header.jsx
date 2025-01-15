@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom'
 import { RiHome2Line } from "react-icons/ri";
 import { GoTools } from "react-icons/go";
-import perfil from "../assets/perfil.jpeg"
 import styles from './componentStyles/Header.module.css'
 
 import { useState, useEffect } from 'react';
@@ -33,7 +32,7 @@ export default function Header() {
           <header className={`${styles.headerContainer} ${isScrolled ? styles.scrolledHeader : ""}`}>
                <div className={styles.profile}>
                     <figure className={styles.profileImage}>
-                         <img src={perfil} width="100" alt="Foto de perfil" />
+                         <img src="/portfolio/assets/perfil.jpeg" width="100" alt="Foto de perfil" />
                     </figure>
                     <div className={styles.profileName}>
                          {!isScrolled ? <h2 className={cssSumir}>Portfolio</h2> : ''}
