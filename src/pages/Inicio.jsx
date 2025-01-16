@@ -11,11 +11,18 @@ function Inicio() {
 
      const handleScroll = ref => {
           if (ref.current) {
-               ref.current.scrollIntoView({ 
-                    behavior: "smooth",
+               ref.current.scrollIntoView({
+                    behavior: "auto",
                     block: "start"
                })
           }
+
+          // const disableMouseEvents = (e) => e.preventDefault();
+          // window.addEventListener("mousemove", disableMouseEvents, { passive: false });
+          
+          setTimeout(() => {
+               window.removeEventListener("mousemove", disableMouseEvents);
+           }, 1000); // Ajuste o tempo conforme necessário
      }
 
      return (
@@ -73,9 +80,9 @@ function Inicio() {
                               <hr />
                          </div>
                     </article>
-                    
+
                     <div ref={experience}>
-                    <Experiences />
+                         <Experiences />
                     </div>
 
                     <article className='formacao' ref={formation}>
