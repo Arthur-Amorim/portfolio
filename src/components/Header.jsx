@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import { RiHome2Line } from "react-icons/ri";
 import { GoTools } from "react-icons/go";
 import styles from './componentStyles/Header.module.css'
@@ -9,7 +9,7 @@ export default function Header() {
 
      const [isScrolled, setIsScrolled] = useState(false);
      const cssSumir = `${isScrolled ? styles.sumir : ''}`
-     const [underlined, setUnderlined] = useState('inicio')
+     const [path, setPath] = useState(useLocation().pathname)
 
      // Hook para monitorar a rolagem
      useEffect(() => {
@@ -42,14 +42,14 @@ export default function Header() {
                </div>
 
                <ul className={styles.navigator}>
-                    <Link to="/portfolio" onClick={() => setUnderlined('inicio')} >
-                         <li className={underlined === 'inicio' ? styles.underlined : ''} >
+                    <Link to="/portfolio" onClick={() => setPath('/portfolio')} >
+                         <li className={path === '/portfolio' ? styles.underlined : ''} >
                               <RiHome2Line size={25} />
                               <span className={cssSumir}>Início</span>
                          </li>
                     </Link>
-                    <Link to="/portfolio/projetos" onClick={() => setUnderlined('projetos')} >
-                         <li className={underlined === 'projetos' ? styles.underlined : ''} >
+                    <Link to="/portfolio/projetos" onClick={() => setPath('/portfolio/projetos')} >
+                         <li className={path === '/portfolio/projetos' ? styles.underlined : ''} >
                               <GoTools size={25} />
                               <span className={cssSumir}> Projetos </span>
                          </li>
