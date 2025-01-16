@@ -4,7 +4,6 @@ import '../styles/navigator.css'
 import Experiences from '../components/Experiences';
 
 function Inicio() {
-     const [visibleSection, setVisibleSection] = useState('introducao')
      const intro = useRef(null)
      const experience = useRef(null)
      const formation = useRef(null)
@@ -26,7 +25,6 @@ function Inicio() {
                          <li
                               onClick={() => {
                                    handleScroll(intro)
-                                   setVisibleSection('introducao')
                               }}
                               className='intro'
                          >
