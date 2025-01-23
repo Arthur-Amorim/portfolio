@@ -6,7 +6,7 @@
 }
 
 .content {
-     width: 600px;
+     width: 40%;
      font-size: 25px;
      background-color: #0A131A;
      border-radius: 18px;
@@ -22,4 +22,8 @@
 .darked {
      background-color: rgba(0,0,0,0.1);
      flex-direction: row-reverse;
+}
+
+article {
+     margin-bottom: 30px;
 }

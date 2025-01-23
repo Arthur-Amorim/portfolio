@@ -4,12 +4,14 @@
      justify-content: center;
      z-index: 1;
      position: fixed;
+     top: 180px;
      background-color: rgba(0,0,10,0.8);
      box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+     border-radius: 0 10px 10px 0;
 }
 
 .sidebar {
-     width: 700px;
+     width: 10%;
      left: 0;
      color: white;
      height: 300px;
@@ -37,3 +39,4 @@
 .sectionsNav li:active {
      transform: scale(0.95);
 }
+

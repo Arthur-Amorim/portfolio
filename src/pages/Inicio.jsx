@@ -3,6 +3,13 @@ import '../styles/Inicio.css'
 import '../styles/navigator.css'
 import Experiences from '../components/Experiences';
 
+// Icons
+import { FaGuitar } from "react-icons/fa";
+import { IoGameController } from "react-icons/io5";
+import { BsFillBadge3dFill } from "react-icons/bs";
+import { FaPython } from "react-icons/fa";
+import { BsGraphUp } from "react-icons/bs";
+
 function Inicio() {
      const intro = useRef(null)
      const experience = useRef(null)
@@ -19,10 +26,10 @@ function Inicio() {
 
           // const disableMouseEvents = (e) => e.preventDefault();
           // window.addEventListener("mousemove", disableMouseEvents, { passive: false });
-          
+
           setTimeout(() => {
                window.removeEventListener("mousemove", disableMouseEvents);
-           }, 1000); // Ajuste o tempo conforme necessário
+          }, 1000); // Ajuste o tempo conforme necessário
      }
 
      return (
@@ -56,7 +63,7 @@ function Inicio() {
                     </ul>
                </aside>
 
-               <section className='sections' ref={intro}>
+               <section className='articles' ref={intro}>
                     <article className='introducao'>
                          <div className='titulo'>
                               <h2>Sobre mim</h2>
@@ -75,18 +82,55 @@ function Inicio() {
                               and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                          </p>
 
-                         <div className='titulo'>
+                         <div className='title'>
                               <h2>Interesses</h2>
                               <hr />
+
+                              <div className='interestsContainer'>
+                                   <div className='interest'>
+                                        <FaGuitar size={40} color='#ccc' />
+                                        <p>Violão</p>
+                                   </div>
+
+                                   <div className='interest'>
+                                        <IoGameController size={40} color='#ccc' />
+                                        <p>vídeo-game</p>
+                                   </div>
+
+                                   <div className='interest'>
+                                        <BsFillBadge3dFill size={40} color='#ccc' />
+                                        <p>Projeção 3d</p>
+                                   </div>
+
+                                   <div className='interest'>
+                                        <FaPython size={40} color='#ccc' />
+                                        <p>Python</p>
+                                   </div>
+
+                                   <div className='interest'>
+                                        <BsGraphUp size={40} color='#ccc' />
+                                        <p>Simulações</p>
+                                   </div>
+                              </div>
                          </div>
                     </article>
 
-                    <div ref={experience}>
+                    <article ref={experience}>
+                         <div className='title'>
+                              <h2>Experiêcias</h2>
+                              <hr />
+                         </div>
                          <Experiences />
-                    </div>
+                    </article>
 
                     <article className='formacao' ref={formation}>
-                         Formadoh
+                         <div className='title'>
+                              <h2>Formação</h2>
+                              <hr />
+                         </div>
+                         <ul>
+                              <li></li>
+                         </ul>
                     </article>
                </section>
 

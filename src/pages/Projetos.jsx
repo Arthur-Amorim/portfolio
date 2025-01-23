@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import Experiences from "../components/Experiences";
 import '../styles/Projetos.css'
 import '../styles/navigator.css'
@@ -19,7 +19,8 @@ function Projetos() {
      }
 
      return (
-          <div className="sectionsContainer">
+          <div className="projetosContainer">
+
                <aside className="sidebar">
                     <ul className="sectionsNav">
                          <li
@@ -36,7 +37,8 @@ function Projetos() {
                          </li>
                     </ul>
                </aside>
-               <div className="experiencesContent">
+
+               <div className="sections">
                     <div ref={pesq}>
                          <Experiences />
                     </div>
