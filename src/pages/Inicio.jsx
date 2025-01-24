@@ -82,37 +82,6 @@ function Inicio() {
                               and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                          </p>
 
-                         <div className='title'>
-                              <h2>Interesses</h2>
-                              <hr />
-
-                              <div className='interestsContainer'>
-                                   <div className='interest'>
-                                        <FaGuitar size={40} color='#ccc' />
-                                        <p>Violão</p>
-                                   </div>
-
-                                   <div className='interest'>
-                                        <IoGameController size={40} color='#ccc' />
-                                        <p>vídeo-game</p>
-                                   </div>
-
-                                   <div className='interest'>
-                                        <BsFillBadge3dFill size={40} color='#ccc' />
-                                        <p>Projeção 3d</p>
-                                   </div>
-
-                                   <div className='interest'>
-                                        <FaPython size={40} color='#ccc' />
-                                        <p>Python</p>
-                                   </div>
-
-                                   <div className='interest'>
-                                        <BsGraphUp size={40} color='#ccc' />
-                                        <p>Simulações</p>
-                                   </div>
-                              </div>
-                         </div>
                     </article>
 
                     <article ref={experience}>

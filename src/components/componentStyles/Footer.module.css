@@ -20,5 +20,10 @@ footer a{
      width: fit-content;
      left: calc(50% - 20px);
      margin: 5px 0 5px 0;
+     transition: transform 500ms ease-out;
+}
+
+footer svg:hover{
+     transform: scale(1.1);
 }
 

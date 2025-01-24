@@ -6,7 +6,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 import ErrorPage from './pages/ErrorPage.jsx'
 import Inicio from './pages/Inicio.jsx' 
-import Projetos from './pages/Projetos.jsx' 
+import Pesquisa from './pages/Pesquisa.jsx' 
+import Modelagens from './pages/Modelagens.jsx'
 
 const routes = createBrowserRouter([
   {
@@ -19,8 +20,12 @@ const routes = createBrowserRouter([
         element: <Inicio />,
       },
       {
-        path: '/portfolio/projetos',
-        element: <Projetos />
+        path: '/portfolio/pesquisa',
+        element: <Pesquisa />
+      },
+      {
+        path: '/portfolio/modelagens',
+        element: <Modelagens />
       }
     ]
   }
@@ -28,7 +33,6 @@ const routes = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    {/* <App /> */}
     <RouterProvider router={routes} />
   </StrictMode>,
 )

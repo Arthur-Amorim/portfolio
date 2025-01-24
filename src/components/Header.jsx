@@ -1,9 +1,10 @@
 import { Link, useLocation } from 'react-router-dom'
-import { RiHome2Line } from "react-icons/ri";
-import { GoTools } from "react-icons/go";
 import styles from './componentStyles/Header.module.css'
-
 import { useState, useEffect } from 'react';
+
+import { RiHome2Line } from "react-icons/ri";
+import { GrNotes } from "react-icons/gr";
+import { BsBadge3D } from 'react-icons/bs';
 
 export default function Header() {
 
@@ -48,12 +49,21 @@ export default function Header() {
                               <span className={cssSumir}>Início</span>
                          </li>
                     </Link>
-                    <Link to="/portfolio/projetos" onClick={() => setPath('/portfolio/projetos')} >
-                         <li className={path === '/portfolio/projetos' ? styles.underlined : ''} >
-                              <GoTools size={25} />
-                              <span className={cssSumir}> Projetos </span>
+
+                    <Link to="/portfolio/pesquisa" onClick={() => setPath('/portfolio/pesquisa')} >
+                         <li className={path === '/portfolio/pesquisa' ? styles.underlined : ''} >
+                              <GrNotes size={25} />
+                              <span className={cssSumir}> Pesquisa </span>
                          </li>
                     </Link>
+
+                    <Link to="/portfolio/modelagens" onClick={() => setPath('/portfolio/modelagens')} >
+                         <li className={path === '/portfolio/modelagens' ? styles.underlined : ''} >
+                              <BsBadge3D size={25} />
+                              <span className={cssSumir}> Modelagens </span>
+                         </li>
+                    </Link>
+
                </ul>
           </header>
      )
