@@ -1,5 +1,5 @@
 import { useRef, useState } from "react";
-import Experiences from "../components/Experiences";
+import Pesquisas from "../components/Pesquisas";
 import '../styles/Projetos.css'
 import '../styles/navigator.css'
 import Images from "../components/Images";
@@ -22,7 +22,7 @@ function Pesquisa() {
           <div className="projetosContainer">
                <div className="sections">
                     <div>
-                         <Experiences />
+                    <Pesquisas />
                     </div>
                </div>
           </div>

@@ -1,7 +1,7 @@
 import CardExperiencia from './CardExperience'
-import data from '../data/experiences.json'
+import data from '../data/pesquisas.json'
 
-function Experiences() {
+function Pesquisas() {
      return (
           <article className='experiencia'>
                {
@@ -12,7 +12,7 @@ function Experiences() {
                                    <CardExperiencia
                                         title={title}
                                         description={description}
-                                        image1={`/portfolio/experiencias/${image}`}
+                                        image1={`/portfolio/pesquisa/${image}`}
                                         darked={darked}
                                    />
                               </div>
@@ -24,4 +24,4 @@ function Experiences() {
      )
 }
 
-export default Experiences;
+export default Pesquisas;

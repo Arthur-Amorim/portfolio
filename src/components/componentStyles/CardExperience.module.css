@@ -5,6 +5,11 @@
      padding: 70px 0 70px 0;
 }
 
+.expContainer img{
+     width: 700px;
+     height: auto;
+}
+
 .content {
      width: 30%;
      font-size: 25px;

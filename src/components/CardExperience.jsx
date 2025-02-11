@@ -10,7 +10,7 @@ function CardExperiencia({ title, description, image1 = null, image2 = null, dar
                     <p>{description}</p>
                </div>
                <figure>
-                    <img src={image1} alt="first image of an experience" />
+                    <img src={image1} alt="Image of an experience" />
                </figure>
           </div>
      )

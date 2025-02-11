@@ -10,7 +10,7 @@ export default function footer() {
                <div className={styles.redes}>
 
                     <a href="https://www.linkedin.com/in/arthur-henrique-leite-amorim-818779192/">
-                         <FaLinkedin size={40} color="blue" />
+                         <FaLinkedin color="blue" size={40}/>
                     </a>
                     <a href=" https://wa.me/551194752-7361">
                          <FaWhatsappSquare size={40} color="green"/>
