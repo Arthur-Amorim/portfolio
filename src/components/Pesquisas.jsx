@@ -1,12 +1,13 @@
 import CardExperiencia from './CardExperience'
+import styles from './componentStyles/Pesquisas.module.css'
 import data from '../data/pesquisas.json'
 
 function Pesquisas() {
      return (
-          <article className='experiencia'>
+          <article className={styles.experiencia}>
                {
                     data.map(({ id, title, description, image }) => {
-                         const darked = (id % 2 == 0 ? true : false)
+                         const darked = (id % 2 == 0 ? false : true)
                          return (
                               <div key={id}>
                                    <CardExperiencia
