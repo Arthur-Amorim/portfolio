@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import '../styles/Inicio.css'
 import '../styles/navigator.css'
 import Experiences from '../components/Experiences';
+import Formacao from '../components/Formacao'
 
 // Icons
 import { FaGuitar } from "react-icons/fa";
@@ -93,13 +94,7 @@ function Inicio() {
                     </article>
 
                     <article className='formacao' ref={formation}>
-                         <div className='title'>
-                              <h2>Formação</h2>
-                              <hr />
-                         </div>
-                         <ul>
-                              <li></li>
-                         </ul>
+                         <Formacao />
                     </article>
                </section>
 
