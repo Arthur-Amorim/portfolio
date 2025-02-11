@@ -94,6 +94,10 @@ function Inicio() {
                     </article>
 
                     <article className='formacao' ref={formation}>
+                    <div className='titulo'>
+                              <h2>Formação</h2>
+                              <hr />
+                         </div>
                          <Formacao />
                     </article>
                </section>
