@@ -71,16 +71,20 @@ function Inicio() {
                               <hr />
                          </div>
                          <p>
-                              Lorem Ipsum is simply dummy text of the printing and typesetting
-                              industry.
-                              Lorem Ipsum has been the industry's standard dummy text ever since the
-                              1500s,
-                              when an unknown printer took a galley of type and scrambled it to make a
-                              type specimen book.
-                              It has survived not only five centuries, but also the leap into electronic
-                              typesetting,
-                              remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                              and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                         Meu nome é Arthur Henrique. Nasci em São Paulo, atualmente moro em Campinas e tenho 22 anos. 
+                         Sou uma pessoa de muitos hobbies. Gosto muito de aprender coisas novas e fazer atividades que 
+                         envolvam criatividade, inteligência e coordenação motora. Meus hobbies favoritos são: tocar violão, desenhar e praticar esportes.
+                         <br></br>
+                         <br></br>
+                         Atualmente estou me graduando em Engenharia Mecânica na Unicamp, com um 
+                         forte interesse em geração e aplicação de energias renováveis, soluções sustentáveis e gestão de projetos. 
+                         Possuo ampla experiência em Desenho Técnico, Modelagem 3D,
+                         Renderização e Simulação Computacional (CAE), com destaque para o desenvolvimento de projetos inovadores e o
+                         design de soluções eficientes. Tenho domínio de diversas ferramentas de engenharia essenciais para a execução de
+                         projetos, como softwares de CAD/CAE, além de proficiência no pacote Office (Excel, Word, PowerPoint) para análise
+                         de dados, documentação e apresentação de resultados. Minha experiência também inclui a aplicação de métodos
+                         ágeis, como o framework Kanban, para gestão de projetos, o que me permite otimizar processos, aumentar a
+                         produtividade e garantir a entrega de resultados dentro dos prazos estabelecidos
                          </p>
 
                     </article>
