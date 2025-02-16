@@ -1,12 +1,22 @@
 .imagesContainer {
      width: 80%;
-
-     display: flex;
-     flex-wrap: wrap;
-     justify-content: space-around;
-     
-     position: relative;
      left: 10%;
+     position: relative;
+
+     background-color: rgba(255, 255, 255, 0.4);
+     box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+     border-radius: 10px;
+     padding: 50px;
+
+}
+.categoryContainer {
+     flex-wrap: wrap;
+     display: flex;
+     gap: 50px;
+     left: 50px;
+     position: relative;
+     width: fit-content;
+     margin-bottom: 75px;
 }
 
 .card{
