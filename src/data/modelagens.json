@@ -1,57 +1,57 @@
 [
      {
-          "titulo": "titulo bla bla bla",
-          "descricao": "descricao bla bla bla",
+          "titulo": "Banheira Modelo Paraty Individual",
+          "descricao": "Serviço freelance  de engenharia reversa feito para ArtSol - Náutica",
           "imagem": "BanheiraIndividual.png"
      },
      {
-          "titulo": "titulo bla bla bla",
-          "descricao": "descricao bla bla bla",
+          "titulo": "Banheira Modelo Paraty Dupla",
+          "descricao": "Serviço freelance  de engenharia reversa feito para ArtSol - Náutica",
           "imagem": "BanheiroDupla.png"
      },
      {
-          "titulo": "titulo bla bla bla",
-          "descricao": "stry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronictypesetting,",
+          "titulo": "Montagem de Mancal",
+          "descricao": "Montagem de Mancal feito para treinamento de modelagem e assembly",
           "imagem": "bigorna.png"
      },
      {
-          "titulo": "titulo bla bla bla",
-          "descricao": "descricao bla bla bla",
+          "titulo": "Carenagem Nissan",
+          "descricao": "Modelagem de carenagem feita para treinamento de técnicas com superfícies",
           "imagem": "Carenagem_Nissan.png"
      },
      {
-          "titulo": "titulo bla bla bla",
-          "descricao": "descricao bla bla bla",
+          "titulo": "Engrenagem",
+          "descricao": "Modelagem para treinamento de confecção de peça mecânica",
           "imagem": "engrenagem.png"
      },
      {
-          "titulo": "titulo bla bla bla",
-          "descricao": "descricao bla bla bla",
+          "titulo": "Garrafa Skol Beatz",
+          "descricao": "Modelagem de garrafa de Skol Beatz para treinamento de superfícies mais irregulares e posterior renderização com material cerâmico de vidro",
           "imagem": "garrafa.png"
      },
      {
-          "titulo": "titulo bla bla bla",
-          "descricao": "descricao bla bla bla",
+          "titulo": "Garrafa Gatorade",
+          "descricao": "Modelagem de garrafa de Gatorade para treinamento de superfícies mais irregulares e posterior renderização com material polimérico parcialmente translúcido",
           "imagem": "garrafa2.png"
      },
      {
-          "titulo": "titulo bla bla bla",
-          "descricao": "descricao bla bla bla",
+          "titulo": "Engrenagem Helicoidal",
+          "descricao": "Modelagem de engrenagem helicoidal para treinamento de confecção de peças mecânicas mais complexas",
           "imagem": "Helicoidal.png"
      },
      {
-          "titulo": "titulo bla bla bla",
-          "descricao": "descricao bla bla bla",
+          "titulo": "Conjunto Pistão-Virabrequim",
+          "descricao": "Modelagem das peças que compõe o mecanismo interno de um motor a combustão com posterior montagem e simulação de movimento",
           "imagem": "pistao.png"
      },
      {
-          "titulo": "titulo bla bla bla",
-          "descricao": "descricao bla bla bla",
+          "titulo": "Placa RZO",
+          "descricao": "Confecção de placa no estilo estencil sob encomenda para impressão 3D",
           "imagem": "Placa.png"
      },
      {
-          "titulo": "titulo bla bla bla",
-          "descricao": "descricao bla bla bla",
+          "titulo": "Rolamento",
+          "descricao": "Modelagem completa do rolamento, peça por peça para treinamento de modelagem, montagem e simulação de movimento",
           "imagem": "rolamento.png"
      }
 ]
