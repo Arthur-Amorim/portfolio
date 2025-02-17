@@ -15,13 +15,13 @@
           "id": 2,
           "title": "FEA Unicamp - Laboratório de Refrigeração",
           "description": "Neste projeto, disponibilizado pelo Laboratório de Refrigeração (FEA - Faculdade de Engenharia de Alimentos) da Unicamp, pude me inserir na rotina de montagem e manutenção dos sistemas de refrigeração e aquecimento do laboratório, além de elaborar plantas de funcionamento dos maquinários e ajudar com a instrumentação do maquinário.",
-          "image": "FEALAB.png"
+          "image": "FEADIAGRAM.png"
      },
      { 
           "id": 2,
           "title": "FEA Unicamp - Laboratório de Refrigeração",
           "description": "Ainda na FEA - Unicamp, pude contribuir com o desenvolvimento de um código de Visão Computacional em Python para auxiliar no doutorando de um dos alunos que participava no laboratório. O código funcionava com o principal objetivo de analisar imagens dos produtos utilizados em um sistema de secagem, afim de analisar o nível de deterioração dos alimentos através de um comparativo dos canais LAB das imagens antes e após o tratamento de secagem.",
-          "image": "FEADIAGRAM.png"
+          "image": "FEALAB.png"
      },
      { 
           "id": 3,
