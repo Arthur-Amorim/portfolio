@@ -6,21 +6,24 @@
      background-color: rgba(255, 255, 255, 0.4);
      box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
      border-radius: 10px;
-     padding: 50px;
+     padding: 1rem;
 
 }
+
 .categoryContainer {
      flex-wrap: wrap;
-     display: flex;
-     gap: 50px;
-     left: 50px;
-     position: relative;
-     width: fit-content;
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+     gap: 25px;
+     width: 100%;
      margin-bottom: 75px;
+     position: relative;
+     left: 1vw;
+     flex-wrap: wrap;
 }
 
 .card{
-     width: 400px;
+     width: 350px;
      margin-bottom: 20px;
      margin-top: 20px;
      box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.7);
