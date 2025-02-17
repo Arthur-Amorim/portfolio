@@ -15,7 +15,6 @@
      left: 0;
      color: white;
      height: 300px;
-     /* height: max-content; */
 }
 
 .sectionsNav li {
@@ -23,13 +22,12 @@
      padding: 10px;
      height: fit-content;
      list-style: none;
-     font-size: 25px;
+     font-size: 1.3vw;
      border: solid 1px transparent;
      transition: border 150ms ease-in-out;
 }
 
 .sectionsNav li:hover {
-     /* border: solid 1px #566569; */
      border-radius: 5px;
      border-left: solid 3px white;
      cursor: pointer;
@@ -39,4 +37,3 @@
 .sectionsNav li:active {
      transform: scale(0.95);
 }
-

@@ -6,23 +6,16 @@
 }
 
 .expContainer img{
-     width: 700px;
+     width: 40vw;
      height: auto;
 }
 
-.titleStyle {
-     width: 30%;
-     font-size: 25px;
-     margin-bottom: 15px;
-     background-color: #0A131A;
-     border-radius: 18px;
-     color: white;
-     padding: 40px 50px 20px 50px;
-     box-shadow: 4px 4px 10px 3px rgba(0, 0, 0, 0.28);
-}
+
 .content {
      width: 30%;
-     font-size: 20px;
+     height: fit-content;
+     font-size: 1vw;
+     line-height: 1.5;
      text-align: justify;
      background-color: #0A131A;
      border-radius: 18px;
@@ -31,6 +24,10 @@
      box-shadow: 4px 4px 10px 3px rgba(0, 0, 0, 0.28);
 }
 
+.content h3{
+     font-size: 1.1vw;
+     margin-bottom: 10px;
+}
 
 .darked {
      background-color: rgba(0,0,0,0.1);
