@@ -3,19 +3,25 @@
           "id": 0,
           "title": "Diretor de Estrutura e Aerodinâmica - Ecocar Unicamp",
           "description": "Durante 3 anos de minha graduação, participei da Ecocar Unicamp. A equipe tem a missão de construir um veículo elétrico com maior eficiência energética. Nesta oportunidade pude desenvolver minhas habilidades técnicas de modelagem 3D e simulação em SolidWorks. Como diretor, aumentei minhas habilidades de gestão de equipe, distribuição de tarefas, organização e motivação dos membros. Para gestão e controle do projeto, utilizei Excel e ferramentas baseadas no Método Kanbam. Por fim, o contato com diversas empresas que patrocinavam o projeto desenvolveu aumentou minhas habilidade de captação de recurso, apresentação e oratória.",
-          "image": "exemplo1.jpeg"
+          "image": "Ecocar.jpg"
      },
      { 
           "id": 1,
           "title": "IC Fapesp - Simulação Termodinâmica",
           "description": "Este projeto consistia na implementação de um modelo de turbocompressor em um código de simulação computacional fenomenológica de combustão interna desenvolvido em Matlab, convertido e aprimorado em Python. O modelo englobava um compressor, uma turbina, uma válvula \"waste gate\" e um intercooler. Ao fim do projeto, foi possível obter as melhores combinações de parâmetros de funcionamento para extrair desempenho e eficiência do motor ao mesmo tempo que evitava problemas de funcionamento, como a detonação.",
-          "image": "exemplo1.jpeg"
+          "image": "ICFAPESP.png"
      },
      { 
           "id": 2,
           "title": "FEA Unicamp - Laboratório de Refrigeração",
-          "description": "Neste projeto, disponibilizado pelo Laboratório de Refrigeração (FEA - Faculdade de Engenharia de Alimentos) da Unicamp, pude me inserir na rotina de montagem e manutenção dos sistemas de refrigeração e aquecimento do laboratório, além de elaborar plantas de funcionamento dos maquinários e ajudar com a instrumentação do maquinário.\nAlém disso, pude contribuir com o desenvolvimento de um código de Visão Computacional em Python para auxiliar no doutorando de um dos alunos que participava no laboratório. O código funcionava com o principal objetivo de analisar imagens dos produtos utilizados em um sistema de secagem, afim de analisar o nível de deterioração dos alimentos através de um comparativo dos canais LAB das imagens antes e após o tratamento de secagem.",
-          "image": "exemplo2.jpeg"
+          "description": "Neste projeto, disponibilizado pelo Laboratório de Refrigeração (FEA - Faculdade de Engenharia de Alimentos) da Unicamp, pude me inserir na rotina de montagem e manutenção dos sistemas de refrigeração e aquecimento do laboratório, além de elaborar plantas de funcionamento dos maquinários e ajudar com a instrumentação do maquinário.",
+          "image": "FEALAB.png"
+     },
+     { 
+          "id": 2,
+          "title": "FEA Unicamp - Laboratório de Refrigeração",
+          "description": "Ainda na FEA - Unicamp, pude contribuir com o desenvolvimento de um código de Visão Computacional em Python para auxiliar no doutorando de um dos alunos que participava no laboratório. O código funcionava com o principal objetivo de analisar imagens dos produtos utilizados em um sistema de secagem, afim de analisar o nível de deterioração dos alimentos através de um comparativo dos canais LAB das imagens antes e após o tratamento de secagem.",
+          "image": "FEADIAGRAM.png"
      },
      { 
           "id": 3,
@@ -27,6 +33,6 @@
           "id": 4,
           "title": " Freelancer - Modelador 3D",
           "description": "Durante duas semanas, pude modelar alguns produtos da empresa ArtSol - Náutica para realização de catálogo. Essas modelagens foram realizadas em SolidWorks. Através dessa ferramenta, pude modelar seus produtos em 3D, obter desenhos técnicos com as medidas necessárias e por fim, realizar a renderização dos modelos.",
-          "image": "exemplo1.jpeg"
+          "image": "BanheiraDupla.png"
      }
 ] 
