@@ -27,7 +27,7 @@
           "id": 3,
           "title": "FEM Unicamp - Laboratório de Simulação Computacional",
           "description": "Neste projeto, fornecido pelo Laboratório de Visualização de Sinais (FEM - Faculdade de Engenharia Mecânica) da Unicamp, tive a oportunidade de integrar a equipe responsável por desenvolver um código de simulação que calcula distribuição de força e propagação de trincas em peças, a partir do Método de Elementos Finitos. Minha responsabilidade na equipe é a de garantir a construção das malhas com posterior aplicação das condições e resultados, tudo em um arquivo HDF5.",
-          "image": "exemplo1.jpeg"
+          "image": "GID.jpg"
      },
      { 
           "id": 4,

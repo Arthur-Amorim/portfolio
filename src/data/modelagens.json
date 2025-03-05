@@ -1,6 +1,6 @@
 [
      {
-          "categoria": "Categoria 1",
+          "categoria": "Modelagens de superfícies",
           "imagens": [
                {
                     "titulo": "Banheira Modelo Paraty Individual",
@@ -13,27 +13,12 @@
                     "imagem": "BanheiroDupla.png"
                },
                {
-                    "titulo": "Montagem de Mancal",
-                    "descricao": "Montagem de Mancal feito para treinamento de modelagem e assembly",
-                    "imagem": "bigorna.png"
-               }
-          ]
-     },
-     {
-          "categoria": "Modelagens tipo 2",
-          "imagens": [
-               {
                     "titulo": "Carenagem Nissan",
                     "descricao": "Modelagem de carenagem feita para treinamento de técnicas com superfícies",
                     "imagem": "Carenagem_Nissan.png"
                },
                {
-                    "titulo": "Engrenagem",
-                    "descricao": "Modelagem para treinamento de confecção de peça mecânica",
-                    "imagem": "engrenagem.png"
-               },
-               {
-                    "titulo": "Garrafa Skol Beatz",
+                    "titulo": "Garrafa Skol Beats",
                     "descricao": "Modelagem de garrafa de Skol Beatz para treinamento de superfícies mais irregulares e posterior renderização com material cerâmico de vidro",
                     "imagem": "garrafa.png"
                },
@@ -41,6 +26,37 @@
                     "titulo": "Garrafa Gatorade",
                     "descricao": "Modelagem de garrafa de Gatorade para treinamento de superfícies mais irregulares e posterior renderização com material polimérico parcialmente translúcido",
                     "imagem": "garrafa2.png"
+               }
+          ]
+     },
+     {
+          "categoria": "Máquinas e Montagens",
+          "imagens": [
+
+               {
+                    "titulo": "Montagem de Mancal",
+                    "descricao": "Montagem de Mancal feito para treinamento de modelagem e assembly",
+                    "imagem": "bigorna.png"
+               },
+               {
+                    "titulo": "Conjunto Pistão-Virabrequim",
+                    "descricao": "Modelagem das peças que compõe o mecanismo interno de um motor a combustão com posterior montagem e simulação de movimento",
+                    "imagem": "pistao.png"
+               },
+               {
+                    "titulo": "Rolamento",
+                    "descricao": "Modelagem completa do rolamento, peça por peça para treinamento de modelagem, montagem e simulação de movimento",
+                    "imagem": "rolamento.png"
+               }
+          ]
+     },
+     {
+          "categoria": "Peças Mecânicas",
+          "imagens": [
+               {
+                    "titulo": "Engrenagem",
+                    "descricao": "Modelagem para treinamento de confecção de peça mecânica",
+                    "imagem": "engrenagem.png"
                },
                {
                     "titulo": "Engrenagem Helicoidal",
@@ -51,16 +67,16 @@
                     "titulo": "Conjunto Pistão-Virabrequim",
                     "descricao": "Modelagem das peças que compõe o mecanismo interno de um motor a combustão com posterior montagem e simulação de movimento",
                     "imagem": "pistao.png"
-               },
+               }
+          ]
+     },
+     {
+          "categoria": "Impressão 3D",
+          "imagens": [
                {
                     "titulo": "Placa RZO",
                     "descricao": "Confecção de placa no estilo estencil sob encomenda para impressão 3D",
                     "imagem": "Placa.png"
-               },
-               {
-                    "titulo": "Rolamento",
-                    "descricao": "Modelagem completa do rolamento, peça por peça para treinamento de modelagem, montagem e simulação de movimento",
-                    "imagem": "rolamento.png"
                }
           ]
      }

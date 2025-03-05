@@ -1,20 +1,38 @@
 [
      { 
           "id": 0,
-          "title": "Pesquisa em combustao lealala",
-          "description": "Lorem Ipsum is simply dummy text of the printing and  typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-          "image": "exemplo1.jpeg"
+          "title": "Resultados IC FAPESP - Indices de Detonação",
+          "description": "Gráfico relaciona a variação dos indices de detonação com o uso de 3 tecnologias diferentes durante um ciclo estável de combustão. O uso de turbocompressores sem o intercooler aumenta muito o indice de detonação. Vale a pena ressaltar que indices de detonação maiores que a unidade representam um risco significativo de que ocorra detonação durante as combustões deste motor. ",
+          "image": "Detonacao.png"
      },
      { 
-          "id": 1,
-          "title": "Projeto de Integração Numérica 2",
-          "description": "Lorem Ipsum is simply dummy text of the printing and  typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-          "image": "exemplo2.jpeg"
+          "id": 0,
+          "title": "Resultados IC FAPESP - Pressão",
+          "description": "Gráfico que relaciona variação da pressão com o uso de 3 tecnologias diferentes durante um ciclo estável de combustão. A utilização de turbocompressores aumenta notavelmente a pressão dentro do cilindro. A utilização de intercooler neste processo não possui um efeito tão significativo quanto o turbocompressor.",
+          "image": "Pressao.png"
      },
      { 
-          "id": 2,
-          "title": "Ola mundo",
-          "description": "Lorem Ipsum is simply dummy text of the printing and  typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-          "image": "exemplo1.jpeg"
+          "id": 0,
+          "title": "Resultados IC FAPESP - Temperatura",
+          "description": "Gráfico demonstra relação entre a variação da temperatura com o uso de 3 tecnologias diferentes durante um ciclo estável de combustão. Percebe-se um aumento de temperatura com o uso de turbocompressores, e uma relativa diminuição da temperatura quando adiciona-se um intercooler no sistema.",
+          "image": "Temperatura.png"
+     },
+     { 
+          "id": 0,
+          "title": "Resultados IC FAPESP - Temperatura dos Gases",
+          "description": "Gráfico demonstra a diferença de temperatura entre os gases não queimados e os gases queimados para 3 tipos diferentes de ciclo. Percebe-se um aumento de temperatura com o uso de turbocompressores, e uma relativa diminuição da temperatura quando adiciona-se um intercooler no sistema.",
+          "image": "Temperatura2.png"
+     },
+     { 
+          "id": 0,
+          "title": "Resultados IC FAPESP - Mapa de operação do compressor",
+          "description": "Curva gerada a partir dos pontos obtidos pelo Grabit (ferramenta de captura de pontos do Matlab) para o mapa de operação do compressor. As curvas vermelhas representam rotações em RPM do compressor, enquanto as curvas em preto representam ilhas de eficiência. Para realização de interpolação, como estamos lidando com curvas fechadas, utiliza-se a distância entre os pontos mais próximos das duas curvas que contém o ponto de operação, de modo que é possível obter a eficiência e a rotação do compressor dado uma razão de pressão e uma vazão mássica.",
+          "image": "MapaOperacaoComp.png"
+     },
+     { 
+          "id": 0,
+          "title": "Resultados IC FAPESP - Mapa de operação da turbina",
+          "description": "No caso da turbina, entretanto, a abordagem é um pouco diferente e mais simples. Como ambos os componentes estão ligados pelo mesmo eixo, a rotação do compressor é a mesma da turbina. Essa informação permite saber o quão próximo o ponto de operação (formado pelo par: razão de pressão da turbina e vazão, ambos associados à rotação ja descoberta do compressor) está de uma curva de rotação do que de outra, e a partir deste valor, estimar sua eficiência.",
+          "image": "MapaOperacaoTurb.png"
      }
 ] 
