@@ -12,7 +12,7 @@ export default function footer() {
                     <a href="https://www.linkedin.com/in/arthur-henrique-leite-amorim-818779192/">
                          <FaLinkedin color="blue" size={40}/>
                     </a>
-                    <a href="wa.me/5519947527361">
+                    <a href="https://wa.me/5519947527361">
                          <FaWhatsappSquare size={40} color="green"/>
                     </a>
                     <a href="https://github.com/Arthur-Amorim/">
