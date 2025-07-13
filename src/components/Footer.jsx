@@ -12,7 +12,7 @@ export default function footer() {
                     <a href="https://www.linkedin.com/in/arthur-henrique-leite-amorim-818779192/">
                          <FaLinkedin color="blue" size={40}/>
                     </a>
-                    <a href=" wa.me/5519947527361?text=Ol%C3%A1!%20Gostaria%20de%20iniciar%20a%20requisi%C3%A7%C3%A3o%20de%20um%20novo%20projeto.%20Poderia%20me%20informar%20os%20pr%C3%B3ximos%20passos,%20por%20favor%3F">
+                    <a href="https://wa.me/5519947527361?text=Ol%C3%A1!%20Gostaria%20de%20iniciar%20a%20requisi%C3%A7%C3%A3o%20de%20um%20novo%20projeto.%20Poderia%20me%20informar%20os%20pr%C3%B3ximos%20passos,%20por%20favor%3F">
                          <FaWhatsappSquare size={40} color="green"/>
                     </a>
                     <a href="https://github.com/Arthur-Amorim/">
