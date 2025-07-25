@@ -17,3 +17,4 @@ Para ter acesso aos documentos do repositório no VS e conseguir atualizar as in
 5. git commit -m "Título descritivo do commit"
 6. git push
 7. npm run deploy 
+8. Para rodar o site localmente: npm run dev
